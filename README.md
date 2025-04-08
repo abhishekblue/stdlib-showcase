@@ -70,9 +70,9 @@ analyzer test.js --summary
 
 Output:
 ```bash
-[Line: 1 : Column: 14] Math.random() → use @stdlib/random/base/mt19937
-[Line: 2 : Column: 15] parseInt() → use @stdlib/number/parse-int
-[Line: 3 : Column: 14] isNaN() → use @stdlib/assert/is-nan
+[Line: 21 : Column: 14] Math.random()  -> Suggestion: @stdlib/random/base/mt19937 (https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/mt19937)
+[Line: 22 : Column: 15] parseInt()  -> Suggestion: @stdlib/utils/parse-json (https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/parse-json)
+[Line: 23 : Column: 14] isNaN()  -> Suggestion: @stdlib/assert/is-nan (https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nan)
 Summary:
 - Math.random() : found 1 times.
 - parseInt() : found 1 times.
