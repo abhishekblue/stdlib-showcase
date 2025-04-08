@@ -16,7 +16,7 @@ It is a CLI tool that scans `Javascript` code and suggest replacements as per [`
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/stdlib-analyzer
+git clone https://github.com/<your-username>/stdlib-showcase
 cd stdlib-analyzer
 npm install
 ```
