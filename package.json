@@ -1,6 +1,14 @@
 {
+  "name": "stdlib-analyzer",
+  "description": "CLI tool that suggest `stdlib` replacements for native JS functions.",
   "private": true,
   "dependencies": {
-    "@stdlib/stdlib": "^0.3.2"
-  }
+    "@stdlib/stdlib": "^0.3.2",
+    "acorn-loose": "^8.4.0",
+    "acorn-walk": "^8.3.4",
+    "chalk": "^4.1.2"
+  },
+  "bin": {
+  "analyzer": "./lib/analyzer.js"
+}
 }

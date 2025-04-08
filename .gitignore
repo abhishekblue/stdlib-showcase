@@ -41,7 +41,6 @@ tmp/
 *.lai
 *.la
 *.a
-*.lib
 *.ko
 *.elf
 *.node
